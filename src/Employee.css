@@ -1,0 +1,59 @@
+.employee-form,
+.admin-form{
+  display: flex;
+  flex-direction: column;
+  margin: 3rem 2rem;
+  box-shadow: 2px 1.5px 2px -1px rgba(0, 0, 0, 0.8),
+    -2px -1px 2px -1px rgba(0, 0, 0, 0.8);
+  border-radius: 3px;
+  padding: 1.5rem;
+  background-color: rgba(245, 245, 245, 0.5);
+  text-align: center;
+}
+.employee-form-heading{
+    background: -webkit-linear-gradient(#032b2c,#209041);
+    background-clip: border-box;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.admin-form-heading{
+    background: -webkit-linear-gradient(#209041,#032b2c);
+    background-clip: border-box;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.login-form{
+    display: flex;
+    flex-direction: column; 
+    box-shadow: 2px 1.5px 2px -1px rgba(0, 0, 0, 0.8),
+    -2px -1px 2px -1px rgba(0, 0, 0, 0.8);
+  border-radius: 3px;
+  min-width: 300px;
+  min-height: 350px;
+  padding: 5px;
+  text-align: center;
+}
+.login-form-heading{
+    background: -webkit-linear-gradient(#000,#209041);
+    background-clip: border-box;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.employee-details-form{
+  display: flex;
+  flex-direction: column;
+  margin: 3rem auto;
+  box-shadow: 2px 1.5px 2px -1px rgba(0, 0, 0, 0.8),
+    -2px -1px 2px -1px rgba(0, 0, 0, 0.8);
+  border-radius: 3px;
+  padding: 1.5rem;
+  background-color: rgba(245, 245, 245, 0.5);
+  width: 900px;
+}
+.employee-leaveHistory{
+  margin: 5px 150px;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  min-height: 75vh;
+}

@@ -1,0 +1,60 @@
+.home-body{
+    height: 0;
+    padding: 0;
+    height: 100vh;
+    width: 100vw;
+   overflow: hidden;
+   display:  flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   text-align: center;
+    background: url('https://media.istockphoto.com/photos/blur-abstract-background-from-office-modern-light-spacious-business-picture-id1318410710?b=1&k=20&m=1318410710&s=170667a&w=0&h=v5t7qU2IhLMfSmxowAn580xxSxABeuyeTiccjxzaUB8=') no-repeat center center/cover;
+}
+.register.cards{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    height: 60%;
+}
+.leave-heading{
+    display:  flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background: -webkit-linear-gradient(#84daef,#9671e4);
+    background-clip: border-box;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 2rem;
+    margin: 0;
+    padding-top: 80px;
+}
+.register.cards .register{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 50%;
+    text-decoration: none;
+    color: #000 ;
+    font-size: 2.3rem;
+    font-weight: 400;
+}
+
+.employee-img, .admin-img{
+    height: 200px;
+    width: 300px;
+    border-radius: 8px;
+    box-shadow: 2px 2px 3px -2px #000;
+}
+.home-login{
+   
+    cursor: pointer;
+    /* border:  1px solid rgba(255, 0, 0, 0.8); */
+}

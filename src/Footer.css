@@ -1,0 +1,30 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300&display=swap");
+
+:root {
+  --primary-color: #032b2c;
+}
+
+
+
+.footer-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #009688;
+  padding: 1rem;
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+.footer-wrapper .footer-copyright {
+  color: #fff;
+  text-align: center;
+  font-size: 1.1rem;
+  letter-spacing: 1.6px;
+  font-weight: 500;
+}
+
+.footer-wrapper .footer-copy-symbol {
+  color: var(--primary-color);
+  font-size: 1.3rem;
+  font-weight: 600;
+}
